@@ -1,0 +1,53 @@
+{
+  "name": "warui-bunmei",
+  "version": "0.1.0",
+  "description": "Discord bot for micro-tasks mostly for entertainment.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node --files src/index.ts",
+    "dev": "nodemon --exec ts-node --files src/index.ts",
+    "format": "prettier --write .",
+    "lint": "eslint --fix --ext .js"
+  },
+  "keywords": [
+    "bot",
+    "fun",
+    "discord",
+    "discord-bot",
+    "discord-js",
+    "node-js",
+    "typescript",
+    "countdown",
+    "dice"
+  ],
+  "author": {
+    "name": "puchimono",
+    "email": "puchimonoo@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/dedent": "^0.7.0",
+    "@types/glob": "^7.1.3",
+    "@types/node": "^14.14.7",
+    "dedent": "^0.7.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "glob": "^7.1.6",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}

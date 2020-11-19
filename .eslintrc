@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "globals": {
+    "NodeJS": "readonly",
+    "TextBasedChannel": "readonly",
+    "UserCollection": "readonly"
+  },
+  "rules": {
+    "consistent-return": "off",
+    "global-require": "off",
+    "lines-between-class-members": "off",
+    "no-console": "off",
+    "no-empty-function": "off",
+    "no-restricted-globals": "off",
+    "no-shadow": "off",
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-useless-constructor": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-shadow": ["error"]
+  }
+}

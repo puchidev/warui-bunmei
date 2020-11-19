@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basics */
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    /* Strict checks */
+    "strict": true,
+    /* Module resolution */
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    /* Linter checks */
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    /* Advanced */
+    "removeComments": true
+  }
+}

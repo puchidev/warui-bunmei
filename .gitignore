@@ -1,0 +1,16 @@
+# :rolleyes:
+node_modules
+.DS_Store
+Thumbs.db
+
+# private data/utils
+*.env
+*.bat
+
+# logs
+logs
+*.log
+
+# dev memo
+.idea
+TODOs.md
